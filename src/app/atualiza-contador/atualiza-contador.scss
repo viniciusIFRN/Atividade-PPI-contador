@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.display {
+  font-size: 48px;
+}
+
+.btn {
+    font-size: 48px;
+    padding: 24px;
+    border-radius: 10px;
+    height: fit-content;
+
+    &.btn-dec {
+        background-color: orange;
+
+    }
+
+    &.btn-inc {
+        background-color: blue;
+        color: white;
+    }
+}
